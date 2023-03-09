@@ -20,7 +20,7 @@ class usuario:
         usuarioEntry=ttk.Entry(mainFrame, textvariable=self.usuario)
         usuarioEntry.grid(column=1, row=1, columnspan=2)
         print(" ")
-        contraseñaEntry=ttk.Entry(mainFrame, textvariable=self.usuario)
+        contraseñaEntry=ttk.Entry(mainFrame, textvariable=self.contraseña)
         contraseñaEntry.grid(column=1, row=2, columnspan=2)
 
 
